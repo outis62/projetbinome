@@ -60,78 +60,105 @@ body {
 	opacity: 0.9;
 }*/
 /*Pour le slider de accueil*/
-slider{
-    display:block;
-    width:100vw;
-    height:100vh;
-    overflow:hidden;
-    position:absolute;
-  }
-  slider > * {
-    position:absolute;
-    display:block;
-    width:100vw;
-    height:100vh;
-    background:grey;
-    animation:slide 12s infinite;
-    overflow:hidden;
-  }
-  
-  slide:nth-child(1){
-   left:0%;
-    animation-delay:-1s;
-    background-image:url(../images/ordi.jpg);
-    height: 400px;
-    background-size:cover;
-    background-position:center;
-  }
-  slide:nth-child(2){
-    animation-delay:2s;
-    background-image:url(../images/de.png);
-    height: 400px;
-    background-size:cover;
-    background-position:center;
-  }
-  slide:nth-child(3){
-    animation-delay:5s;
-    background-image:url(../images/ordi2.jpg);
-    height: 400px;
-    background-size:cover;
-    background-position:center;
-  }
-  slide:nth-child(4){
-    left:0%;
-    animation-delay:8s;
-    background-image:url(../images/contact.png);
-    height: 400px;
-    background-size:cover;
-    background-position:center;
-  }
-  .txtslide{
-    position: relative;
-    bottom: 180px;
-    text-align: justify;
-    width: 700px;
-    left: 30px;
-    font-size: 35px;
-  }
-  slide p{
-  font-size:30px;
-  text-align:center;
-  display:inline-block;
-  width:100%;
-  margin-top:340px;
-  color:white;
-  }
-  
-  @keyframes slide{
-    0% {left:100%; width:100%;}
-    5%{ left:0%;}
-    25%{left:0%;}
-    30%{left:-100%; width:100%;}
-    30.0001%{left:-100%; width:0%;}
-    100%{left:100%; width:0%;}
-  }
+slider {
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	position: absolute;
+}
+
+slider>* {
+	position: absolute;
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	background: grey;
+	animation: slide 12s infinite;
+	overflow: hidden;
+}
+
+slide:nth-child(1) {
+	left: 0%;
+	animation-delay: -1s;
+	background-image: url(../images/ordi.jpg);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(2) {
+	animation-delay: 2s;
+	background-image: url(../images/de.png);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(3) {
+	animation-delay: 5s;
+	background-image: url(../images/ordi2.jpg);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(4) {
+	left: 0%;
+	animation-delay: 8s;
+	background-image: url(../images/contact.png);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+.txtslide {
+	position: relative;
+	bottom: 180px;
+	text-align: justify;
+	width: 700px;
+	left: 30px;
+	font-size: 35px;
+}
+
+slide p {
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin-top: 340px;
+	color: white;
+}
+
+@keyframes slide {
+	0% {
+		left: 100%;
+		width: 100%;
+	}
+
+	5% {
+		left: 0%;
+	}
+
+	25% {
+		left: 0%;
+	}
+
+	30% {
+		left: -100%;
+		width: 100%;
+	}
+
+	30.0001% {
+		left: -100%;
+		width: 0%;
+	}
+
+	100% {
+		left: 100%;
+		width: 0%;
+	}
+}
 
 .section1 {
 	padding: 15px;
@@ -444,50 +471,63 @@ div .carte {
 	width: 800px;
 	left: 250px;
 }
-.container1serv .row2{
+
+.container1serv .row2 {
 	position: relative;
-	top: 140px;
+	top: 180px;
 	left: 150px;
 }
-.row2 div{
+
+.row2 div {
 	background-color: #3A5791;
 	margin-left: 20px;
 	width: 300px;
 	height: 200px;
 	text-align: center;
 }
-.row2 div B, .row2 div p{
+
+.row2 div B,
+.row2 div p {
 	position: relative;
 	top: 90px;
 
 }
-.container1serv .row3{
+
+.container1serv .row3 {
 	position: relative;
-	top: 160px;
+	top: 220px;
 	left: 150px;
 }
-.container1serv .row2 div:hover, .container1serv .row3 div:hover{
-	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-	background: linear-gradient(180deg,#002a40,#448AFF);
+
+.container1serv .row2 div:hover,
+.container1serv .row3 div:hover {
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: linear-gradient(180deg, #002a40, #448AFF);
 	cursor: pointer;
 }
-.row3 div{
+
+.row3 div {
 	background-color: #3A5791;
 	margin-left: 20px;
 	width: 300px;
 	height: 200px;
 	text-align: center;
 }
-.row3 div B, .row3 div p{
+
+.row3 div B,
+.row3 div p {
 	position: relative;
 	top: 90px;
 
 }
+
 .container2serv {
-	margin-top: 190px;
+	margin-top: 290px;
 	background-color: #E4E4E4;
-	padding-bottom: 200px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
+
 .container2serv .titre1 {
 	position: relative;
 	text-align: center;
@@ -505,8 +545,9 @@ div .carte {
 	position: relative;
 	top: 40px;
 }
+
 /*Pour le slider de la 3eme section*/
-.princi{
+.princi {
 	font-family: sans-serif;
 	display: flex;
 	justify-content: space-between;
@@ -514,10 +555,10 @@ div .carte {
 	margin: 0px auto;
 	position: relative;
 	top: 100px;
-	margin-left: 90px;
-	margin-right: 50px;
-  }
-  .slid{
+	margin-left: 20px;
+}
+
+.slid {
 	height: 60vh;
 	position: relative;
 	border-radius: 10px;
@@ -531,59 +572,68 @@ div .carte {
 	-moz-transition: 0.5s linear flex;
 	-ms-transition: 0.5s linear flex;
 	-o-transition: 0.5s linear flex;
-  }
-  @keyframes heading {
-	from{
-	  bottom: 150px;
-	  opacity: 0;
+}
+
+@keyframes heading {
+	from {
+		bottom: 150px;
+		opacity: 0;
 	}
-	to{
-	  bottom: 20px;
-	  opacity: 1;
+
+	to {
+		bottom: 20px;
+		opacity: 1;
 	}
-  
-  }
-  .slid h2{
+
+}
+
+.slid h2 {
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
 	opacity: 0;
 	color: #fff;
-  }
-  .slid h2 span{
+}
+
+.slid h2 span {
 	font-size: 12px;
 	font-weight: 300;
 	display: block;
 	margin-top: 10px;
 	opacity: 0.8;
-  }
-  .slid.act{
+}
+
+.slid.act {
 	flex: 5;
-  }
-  .slid.act h2{
+}
+
+.slid.act h2 {
 	opacity: 1;
 	animation-name: heading;
 	animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	animation-duration: 1.5s;
 	animation-iteration-count: 1;
-  }
-  
+}
+
 /*STYLE DE LA PAGE A PROPOS DE NOUS*/
-.container2apropos{
+.container2apropos {
 	background-color: #E4E4E4;
 	height: 450px;
 	position: relative;
 	top: 15px;
 }
-.presentation{
+
+.presentation {
 	position: relative;
 	left: 50px;
 	top: 10px;
 }
-.presentation p{
+
+.presentation p {
 	color: #3A5791;
 }
-.container2apropos .exsc{
+
+.container2apropos .exsc {
 	background-color: #3A5791;
 	height: 200px;
 	position: relative;
@@ -592,61 +642,579 @@ div .carte {
 	cursor: pointer;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
 }
-.container2apropos .ligneverticalpropos{
+
+.container2apropos .ligneverticalpropos {
 	border-left: 1px solid #3A5791;
 	height: 350px;
 	position: relative;
 	top: 30px;
 }
-.ligne1propos{
+
+.ligne1propos {
 	position: relative;
 	top: 15px;
 }
 
-.exsc p{
+.exsc p {
 	position: relative;
 	top: 60px;
 	left: 15px;
 }
-.damc{
+
+.damc {
 	position: relative;
 	right: 150px;
 	top: 40px;
 	padding: 10px;
 	cursor: pointer;
 }
-.damc B{
+
+.damc B {
 	color: #3A5791;
 }
-.peticol{
+
+.peticol {
 	width: 57%;
 	position: relative;
 	left: 550px;
 	bottom: 75px;
 }
-.peticol B, .peticol p{
+
+.peticol B,
+.peticol p {
 	position: relative;
 	top: 30px;
 	color: #3A5791;
 	cursor: pointer;
 }
 
-.lignevert2{
+.lignevert2 {
 	border-left: 1px solid #3A5791;
 	height: 95px;
 	position: relative;
 	top: 30px;
 }
-.presentation2{
+
+.presentation2 {
 	position: relative;
-	top: 70px;
-	left: 200px;
-	text-align: justify;
-	width: 850px;
-	color: white;
+	top: 60px;
+	left: 110px;
+	color: black;
 }
-.sectiontext{
-	background-image: url(../images/equipe.jpg);
+
+.sectiontext {
+	background-image: url(../images/equipe.jp);
 	background-size: cover;
 	height: 400px;
+}
+
+.partenaire {
+	background-color: #3A5791;
+	width: 300px;
+	position: relative;
+	left: 70px;
+	bottom: 30px;
+}
+
+.section2 {
+	position: relative;
+	left: 100px;
+}
+
+.section3 {
+	position: relative;
+	left: 100px;
+}
+
+.section4 {
+	position: relative;
+	left: 100px;
+}
+
+.s2 {
+	background-color: #3A5791;
+	color: white;
+	height: 250px;
+}
+
+.s2 p {
+	position: relative;
+	top: 60px;
+}
+
+.discution {
+	background-color: #3A5791;
+	width: 300px;
+	position: relative;
+	left: 70px;
+	top: 5px;
+}
+
+.carre {
+	border-radius: 10px 0px 10px 0px;
+	background-color: white;
+	margin: 20px;
+	color: #F48123;
+	position: relative;
+	left: 110px;
+	top: 10px;
+	width: 100px;
+	height: 300px;
+}
+
+.top {
+	background-color: #E4E4E4;
+
+}
+
+.drnsctpropos img {
+	filter: brightness(40%);
+}
+
+.paragraphe {
+	margin-left: 320px;
+	text-align: justify;
+	position: relative;
+	bottom: 50px;
+	width: 600px;
+}
+
+.niveau {
+	position: relative;
+	bottom: 40px;
+}
+
+.s1 {
+	position: relative;
+	top: 80px;
+}
+
+.s2 {
+	position: relative;
+	top: 100px;
+}
+
+.formulaire {
+	background-color: #3A5791;
+	height: 400px;
+	margin-top: 10px;
+	position: relative;
+	margin-left: 60px;
+	border-radius: 5px;
+	top: 30px;
+	padding: 10px;
+}
+
+.telephone {
+	position: relative;
+	top: 10px;
+}
+
+.p1 {
+	text-align: center;
+	position: relative;
+	bottom: 5px;
+}
+
+.ss {
+	position: relative;
+	top: 320px;
+	padding-top: 100px;
+}
+
+.footer {
+	display: flex;
+	color: white;
+	position: relative;
+	left: 120px;
+	padding-left: 50px;
+	top: 10px;
+
+}
+
+.footera {
+	display: flex;
+	color: white;
+	position: relative;
+	left: 100px;
+	padding-left: 50px;
+}
+
+.footer B {
+	position: relative;
+	left: 60px;
+}
+
+footer {
+
+	background-color: #3A5791;
+	position: relative;
+	margin-top: 130px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	top: 0px;
+
+}
+
+.footaccueil {
+	background-color: #3A5791;
+	position: relative;
+	top: 470px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.footservice {
+	background-color: #b50f0f;
+	position: relative;
+	margin-top: 130px;
+}
+
+.footpropos {
+	background-color: #3A5791;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: relative;
+	bottom: 0px;
+}
+
+.logofoot {
+	margin-left: 60px;
+}
+
+.footer h1 {
+	margin-left: 60px;
+
+}
+
+footer hr {
+	color: white;
+	margin-left: 225px;
+	height: 10px;
+}
+
+.footaccueil hr {
+	color: white;
+	margin-left: 225px;
+	height: 10px;
+}
+
+.footer p {
+	margin-left: 60px;
+	text-align: justify;
+}
+
+.footer2 {
+	display: flex;
+
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+}
+
+.footaccueil p {
+	color: #fff;
+	text-align: center;
+}
+
+.image {
+	margin-left: 30px;
+	position: relative;
+	top: 10px;
+}
+
+/*slider citation de a propos de nous*/
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.content-slider {
+	width: 100%;
+	height: 360px;
+}
+
+.slider {
+	height: 320px;
+	width: 680px;
+	margin: 40px auto 0;
+	overflow: visible;
+	position: relative;
+}
+
+.mask {
+	overflow: hidden;
+	height: 320px;
+}
+
+.slider ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.slider li {
+	width: 680px;
+	height: 320px;
+	position: absolute;
+	top: -325px;
+	list-style: none;
+}
+
+.slider .quote {
+	font-size: 40px;
+	font-style: italic;
+}
+
+.slider .source {
+	font-size: 20px;
+	text-align: right;
+}
+
+.slider li.anim1 {
+	animation: cycle 15s linear infinite;
+}
+
+.slider li.anim2 {
+	animation: cycle2 15s linear infinite;
+}
+
+.slider li.anim3 {
+	animation: cycle3 15s linear infinite;
+}
+
+.slider li.anim4 {
+	animation: cycle4 15s linear infinite;
+}
+
+.slider li.anim5 {
+	animation: cycle5 15s linear infinite;
+}
+
+.slider:hover li {
+	animation-play-state: paused;
+}
+
+@keyframes cycle {
+	0% {
+		top: 0px;
+	}
+
+	4% {
+		top: 0px;
+	}
+
+	16% {
+		top: 0px;
+		opacity: 1;
+		z-index: 0;
+	}
+
+	20% {
+		top: 325px;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	21% {
+		top: -325px;
+		opacity: 0;
+		z-index: -1;
+	}
+
+	50% {
+		top: -325px;
+		opacity: 0;
+		z-index: -1;
+	}
+
+	92% {
+		top: -325px;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	96% {
+		top: -325px;
+		opacity: 0;
+	}
+
+	100% {
+		top: 0px;
+		opacity: 1;
+	}
+}
+
+@keyframes cycle2 {
+	0% {
+		top: -325px;
+		opacity: 0;
+	}
+
+	16% {
+		top: -325px;
+		opacity: 0;
+	}
+
+	20% {
+		top: 0px;
+		opacity: 1;
+	}
+
+	24% {
+		top: 0px;
+		opacity: 1;
+	}
+
+	36% {
+		top: 0px;
+		opacity: 1;
+		z-index: 0;
+	}
+
+	40% {
+		top: 325px;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	41% {
+		top: -325px;
+		opacity: 0;
+		z-index: -1;
+	}
+
+	100% {
+		top: -325px;
+		opacity: 0;
+		z-index: -1;
+	}
+}
+
+@keyframes cycle3 {
+	0% {
+		top: -325px;
+		opacity: 0;
+	}
+
+	36% {
+		top: -325px;
+		opacity: 0;
+	}
+
+	40% {
+		top: 0px;
+		opacity: 1;
+	}
+
+	44% {
+		top: 0px;
+		opacity: 1;
+	}
+
+	56% {
+		top: 0px;
+		opacity: 1;
+		z-index: 0;
+	}
+
+	60% {
+		top: 325px;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	61% {
+		top: -325px;
+		opacity: 0;
+		z-index: -1;
+	}
+
+	100% {
+		top: -325px;
+		opacity: 0;
+		z-index: -1;
+	}
+}
+
+@keyframes cycle4 {
+	0% {
+		top: -325px;
+		opacity: 0;
+	}
+
+	56% {
+		top: -325px;
+		opacity: 0;
+	}
+
+	60% {
+		top: 0px;
+		opacity: 1;
+	}
+
+	64% {
+		top: 0px;
+		opacity: 1;
+	}
+
+	76% {
+		top: 0px;
+		opacity: 1;
+		z-index: 0;
+	}
+
+	80% {
+		top: 325px;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	81% {
+		top: -325px;
+		opacity: 0;
+		z-index: -1;
+	}
+
+	100% {
+		top: -325px;
+		opacity: 0;
+		z-index: -1;
+	}
+}
+
+@keyframes cycle5 {
+	0% {
+		top: -325px;
+		opacity: 0;
+	}
+
+	76% {
+		top: -325px;
+		opacity: 0;
+	}
+
+	80% {
+		top: 0px;
+		opacity: 1;
+	}
+
+	84% {
+		top: 0px;
+		opacity: 1;
+	}
+
+	96% {
+		top: 0px;
+		opacity: 1;
+		z-index: 0;
+	}
+
+	100% {
+		top: 325px;
+		opacity: 0;
+		z-index: 0;
+	}
 }
