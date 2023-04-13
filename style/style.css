@@ -1,0 +1,652 @@
+html {
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+	height: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	line-height: 1.5;
+	font-size: 15px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo {
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+}
+
+.toto {
+	background-color: #3A5791;
+	padding: 20px;
+}
+
+.toto li {
+	margin: 20px;
+}
+
+.toto li a {
+	position: relative;
+	left: 350px;
+}
+
+.slogan {
+	position: relative;
+	left: -300px;
+	top: 10px;
+}
+
+.toto a {
+	color: white;
+}
+
+.tata {
+	height: 480px;
+}
+
+/*.accroche {
+	background-color: #3A5791;
+	width: 650px;
+	position: relative;
+	bottom: 210px;
+	left: -100px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	opacity: 0.9;
+}*/
+/*Pour le slider de accueil*/
+slider{
+    display:block;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    position:absolute;
+  }
+  slider > * {
+    position:absolute;
+    display:block;
+    width:100vw;
+    height:100vh;
+    background:grey;
+    animation:slide 12s infinite;
+    overflow:hidden;
+  }
+  
+  slide:nth-child(1){
+   left:0%;
+    animation-delay:-1s;
+    background-image:url(../images/ordi.jpg);
+    height: 400px;
+    background-size:cover;
+    background-position:center;
+  }
+  slide:nth-child(2){
+    animation-delay:2s;
+    background-image:url(../images/de.png);
+    height: 400px;
+    background-size:cover;
+    background-position:center;
+  }
+  slide:nth-child(3){
+    animation-delay:5s;
+    background-image:url(../images/ordi2.jpg);
+    height: 400px;
+    background-size:cover;
+    background-position:center;
+  }
+  slide:nth-child(4){
+    left:0%;
+    animation-delay:8s;
+    background-image:url(../images/contact.png);
+    height: 400px;
+    background-size:cover;
+    background-position:center;
+  }
+  .txtslide{
+    position: relative;
+    bottom: 180px;
+    text-align: justify;
+    width: 700px;
+    left: 30px;
+    font-size: 35px;
+  }
+  slide p{
+  font-size:30px;
+  text-align:center;
+  display:inline-block;
+  width:100%;
+  margin-top:340px;
+  color:white;
+  }
+  
+  @keyframes slide{
+    0% {left:100%; width:100%;}
+    5%{ left:0%;}
+    25%{left:0%;}
+    30%{left:-100%; width:100%;}
+    30.0001%{left:-100%; width:0%;}
+    100%{left:100%; width:0%;}
+  }
+
+.section1 {
+	padding: 15px;
+}
+
+.search {
+	height: 45px;
+	border-radius: 5px;
+}
+
+.search img {
+	position: relative;
+	bottom: 2px;
+	left: -2px;
+}
+
+.search1 {
+	height: 45px;
+	border-radius: 5px;
+	background-color: #3A5791;
+	opacity: 0.9;
+	color: white;
+}
+
+.searchservice {
+	height: 45px;
+	border-radius: 5px;
+	background-color: #E72035;
+	opacity: 0.9;
+	color: white;
+}
+
+.search1 img {
+	position: relative;
+	bottom: 2px;
+	left: -2px;
+}
+
+.sectoin2 {
+	position: relative;
+	top: 400px;
+
+}
+
+.section2img1 {
+	position: relative;
+	left: 90px;
+	top: 18px;
+}
+
+.sectoin2div2 {
+	position: relative;
+	right: 50px;
+	top: 10px;
+}
+
+.img2 {
+	position: relative;
+	left: 200px;
+	top: -10px;
+}
+
+.sectoin2h {
+	color: #3A5791;
+	cursor: pointer;
+}
+
+.container3 {
+	position: relative;
+	top: 400px;
+	background-color: #E4E4E4;
+	padding-bottom: 70px;
+}
+
+.bienvenu {
+	text-align: justify;
+	width: 90%;
+}
+
+.section3 {
+	background-color: #3A5791;
+	height: 330px;
+	cursor: pointer;
+	position: relative;
+	top: 20px;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section3p1 {
+	position: relative;
+	top: 120px;
+	left: 55px;
+}
+
+.section3p2 {
+	position: relative;
+	top: 130px;
+	left: 85px;
+}
+
+.section3p3 {
+	position: relative;
+	top: 100px;
+	left: 55px;
+}
+
+.section3h {
+	position: relative;
+	top: 20px;
+	color: #3A5791;
+}
+
+.section3h5 {
+	position: relative;
+	top: 120px;
+	left: 90px;
+}
+
+.section3bas1 {
+	background-color: #3A5791;
+	height: 330px;
+	cursor: pointer;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+	left: -20px;
+	top: 30px;
+}
+
+.section3bas2 {
+	background-color: #3A5791;
+	height: 330px;
+	cursor: pointer;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+	top: 35px;
+	right: 25px;
+}
+
+.lireplus {
+	background-color: #3A5791;
+	width: 90px;
+	position: relative;
+	left: 630px;
+	top: 15px;
+	padding: 10px;
+}
+
+.container4 {
+	position: relative;
+	top: 420px;
+	margin-bottom: 20px;
+}
+
+.container4 img {
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+	top: 15px;
+}
+
+.container3h {
+	position: relative;
+	top: -7px;
+	color: #3A5791;
+}
+
+.titre1 {
+	position: relative;
+	top: 20px;
+	left: 150px;
+}
+
+.titre2 {
+	position: relative;
+	top: 20px;
+	left: 250px;
+}
+
+.titre3 {
+	position: relative;
+	top: 20px;
+	left: 370px;
+}
+
+.ligne2 {
+	position: relative;
+	top: 25px;
+}
+
+.lireplus2 {
+	background-color: white;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+	width: 90px;
+	position: relative;
+	left: 1170px;
+	top: 20px;
+	padding: 10px;
+}
+
+.container5 {
+	position: relative;
+	top: 470px;
+	padding-bottom: 80px;
+	background-color: #E4E4E4;
+	;
+}
+
+.container5h {
+	position: relative;
+	color: #3A5791;
+	top: 30px;
+}
+
+.container5 .p1 {
+	text-align: justify;
+	width: 300px;
+	position: relative;
+	left: 0px;
+	top: 50px;
+}
+
+.drapeaupays {
+	position: relative;
+	left: 65px;
+}
+
+.drapeau {
+	position: relative;
+	top: 50px;
+}
+
+.drapeaublock2 {
+	position: relative;
+	left: 110px;
+}
+
+div .carte {
+	position: relative;
+	top: 70px;
+	right: 40px;
+}
+
+.container1serv {
+	margin-top: 30px;
+}
+
+.container1serv .titre1 {
+	position: relative;
+	text-align: center;
+	padding-right: 300px;
+}
+
+.container1serv .titre1 B {
+	background-color: #3A5791;
+	padding: 20px 30px 20px 30px;
+	cursor: pointer;
+}
+
+.container1serv .titre1 .p1 {
+	position: relative;
+	top: 40px;
+}
+
+.container1serv .ligne2 {
+	position: relative;
+	top: 80px;
+	left: 200px;
+}
+
+.ligne2 .rpe {
+	background-color: #3A5791;
+	height: 200px;
+	position: relative;
+	left: 80px;
+	top: 20px;
+	cursor: pointer;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ligne2 .rpe p {
+	position: relative;
+	top: 60px;
+	left: 40px;
+}
+
+.ligne-vertical {
+	border-left: 1px solid #3A5791;
+	height: 250px;
+}
+
+.ligne2 .nids {
+	position: relative;
+	right: 200px;
+}
+
+.ligne2 .nids img {
+	position: relative;
+	margin-top: 20px;
+	bottom: 10px;
+}
+
+.ligne2 .nids B {
+	color: #3A5791;
+	cursor: pointer;
+}
+
+.container1serv .p2 {
+	position: relative;
+	top: 110px;
+	text-align: justify;
+	width: 800px;
+	left: 250px;
+}
+.container1serv .row2{
+	position: relative;
+	top: 140px;
+	left: 150px;
+}
+.row2 div{
+	background-color: #3A5791;
+	margin-left: 20px;
+	width: 300px;
+	height: 200px;
+	text-align: center;
+}
+.row2 div B, .row2 div p{
+	position: relative;
+	top: 90px;
+
+}
+.container1serv .row3{
+	position: relative;
+	top: 160px;
+	left: 150px;
+}
+.container1serv .row2 div:hover, .container1serv .row3 div:hover{
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	background: linear-gradient(180deg,#002a40,#448AFF);
+	cursor: pointer;
+}
+.row3 div{
+	background-color: #3A5791;
+	margin-left: 20px;
+	width: 300px;
+	height: 200px;
+	text-align: center;
+}
+.row3 div B, .row3 div p{
+	position: relative;
+	top: 90px;
+
+}
+.container2serv {
+	margin-top: 190px;
+	background-color: #E4E4E4;
+	padding-bottom: 200px;
+}
+.container2serv .titre1 {
+	position: relative;
+	text-align: center;
+	padding-right: 300px;
+	top: 50px;
+}
+
+.container2serv .titre1 B {
+	background-color: #3A5791;
+	padding: 20px 30px 20px 30px;
+	cursor: pointer;
+}
+
+.container2serv .titre1 .p1 {
+	position: relative;
+	top: 40px;
+}
+/*Pour le slider de la 3eme section*/
+.princi{
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+	margin: 0px auto;
+	position: relative;
+	top: 100px;
+	margin-left: 90px;
+	margin-right: 50px;
+  }
+  .slid{
+	height: 60vh;
+	position: relative;
+	border-radius: 10px;
+	padding: 20px;
+	background-size: cover;
+	background-position: 50%;
+	flex: 0.5;
+	cursor: pointer;
+	transition: 0.5s linear flex;
+	-webkit-transition: 0.5s linear flex;
+	-moz-transition: 0.5s linear flex;
+	-ms-transition: 0.5s linear flex;
+	-o-transition: 0.5s linear flex;
+  }
+  @keyframes heading {
+	from{
+	  bottom: 150px;
+	  opacity: 0;
+	}
+	to{
+	  bottom: 20px;
+	  opacity: 1;
+	}
+  
+  }
+  .slid h2{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	opacity: 0;
+	color: #fff;
+  }
+  .slid h2 span{
+	font-size: 12px;
+	font-weight: 300;
+	display: block;
+	margin-top: 10px;
+	opacity: 0.8;
+  }
+  .slid.act{
+	flex: 5;
+  }
+  .slid.act h2{
+	opacity: 1;
+	animation-name: heading;
+	animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+  }
+  
+/*STYLE DE LA PAGE A PROPOS DE NOUS*/
+.container2apropos{
+	background-color: #E4E4E4;
+	height: 450px;
+	position: relative;
+	top: 15px;
+}
+.presentation{
+	position: relative;
+	left: 50px;
+	top: 10px;
+}
+.presentation p{
+	color: #3A5791;
+}
+.container2apropos .exsc{
+	background-color: #3A5791;
+	height: 200px;
+	position: relative;
+	left: 80px;
+	top: 110px;
+	cursor: pointer;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.container2apropos .ligneverticalpropos{
+	border-left: 1px solid #3A5791;
+	height: 350px;
+	position: relative;
+	top: 30px;
+}
+.ligne1propos{
+	position: relative;
+	top: 15px;
+}
+
+.exsc p{
+	position: relative;
+	top: 60px;
+	left: 15px;
+}
+.damc{
+	position: relative;
+	right: 150px;
+	top: 40px;
+	padding: 10px;
+	cursor: pointer;
+}
+.damc B{
+	color: #3A5791;
+}
+.peticol{
+	width: 57%;
+	position: relative;
+	left: 550px;
+	bottom: 75px;
+}
+.peticol B, .peticol p{
+	position: relative;
+	top: 30px;
+	color: #3A5791;
+	cursor: pointer;
+}
+
+.lignevert2{
+	border-left: 1px solid #3A5791;
+	height: 95px;
+	position: relative;
+	top: 30px;
+}
+.presentation2{
+	position: relative;
+	top: 70px;
+	left: 200px;
+	text-align: justify;
+	width: 850px;
+	color: white;
+}
+.sectiontext{
+	background-image: url(../images/equipe.jpg);
+	background-size: cover;
+	height: 400px;
+}
