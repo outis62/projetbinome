@@ -14,8 +14,7 @@ body {
 }
 
 .logo {
-	position: relative;
-	top: 10px;
+	margin-left: 60px;
 	cursor: pointer;
 }
 
@@ -23,43 +22,42 @@ body {
 	background-color: #3A5791;
 	padding: 20px;
 }
-
-.toto li {
-	margin: 20px;
-}
-
-.toto li a {
-	position: relative;
-	left: 350px;
-}
-
-.slogan {
-	position: relative;
-	left: -300px;
-	top: 10px;
-}
-
-.toto a {
-	color: white;
-}
-
 .tata {
 	height: 480px;
 }
-
-/*.accroche {
-	background-color: #3A5791;
-	width: 650px;
-	position: relative;
-	bottom: 210px;
-	left: -100px;
-	text-align: justify;
-	padding-left: 10px;
-	padding-bottom: 5px;
+.search {
+	height: 45px;
 	border-radius: 5px;
+}
+
+.search img {
+	position: relative;
+	bottom: 2px;
+	left: -2px;
+}
+
+.search1 {
+	height: 45px;
+	border-radius: 5px;
+	background-color: #3A5791;
 	opacity: 0.9;
-}*/
-/*Pour le slider de accueil*/
+	color: white;
+}
+
+.searchservice {
+	height: 45px;
+	border-radius: 5px;
+	background-color: #E72035;
+	opacity: 0.9;
+	color: white;
+}
+
+.search1 img {
+	position: relative;
+	bottom: 2px;
+	left: -2px;
+}
+
 slider {
 	display: block;
 	width: 100vw;
@@ -112,22 +110,14 @@ slide:nth-child(4) {
 	background-position: center;
 }
 
-.txtslide {
-	position: relative;
-	bottom: 180px;
-	text-align: justify;
-	width: 700px;
-	left: 30px;
-	font-size: 35px;
-}
-
 slide p {
 	font-size: 30px;
 	text-align: center;
 	display: inline-block;
-	width: 100%;
-	margin-top: 340px;
+	width: 90%;
+	margin-top: 80px;
 	color: white;
+	margin-left: 50px;
 }
 
 @keyframes slide {
@@ -162,39 +152,6 @@ slide p {
 
 .section1 {
 	padding: 15px;
-}
-
-.search {
-	height: 45px;
-	border-radius: 5px;
-}
-
-.search img {
-	position: relative;
-	bottom: 2px;
-	left: -2px;
-}
-
-.search1 {
-	height: 45px;
-	border-radius: 5px;
-	background-color: #3A5791;
-	opacity: 0.9;
-	color: white;
-}
-
-.searchservice {
-	height: 45px;
-	border-radius: 5px;
-	background-color: #E72035;
-	opacity: 0.9;
-	color: white;
-}
-
-.search1 img {
-	position: relative;
-	bottom: 2px;
-	left: -2px;
 }
 
 .sectoin2 {
@@ -352,8 +309,8 @@ slide p {
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
 	width: 90px;
 	position: relative;
-	left: 1170px;
-	top: 20px;
+	left: 0px;
+	top: 0px;
 	padding: 10px;
 }
 
@@ -709,11 +666,24 @@ div .carte {
 }
 
 .partenaire {
+	background-color: #E4E4E4;
+	height: 600px;
+}
+.partenaire .np, .distinction .np{
 	background-color: #3A5791;
-	width: 300px;
-	position: relative;
-	left: 70px;
-	bottom: 30px;
+}
+.distinction .prix{
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 15px 0 15px 0;
+	height: 200px;
+	margin-left: 80px !important;
+	color: #F48123;
+}
+.trophe{
+	margin-left: 90px !important;
+}
+.idqdi{
+	background-color: #3A5791;
 }
 
 .section2 {
@@ -732,9 +702,7 @@ div .carte {
 }
 
 .s2 {
-	background-color: #3A5791;
-	color: white;
-	height: 250px;
+	height: 350px;
 }
 
 .s2 p {
@@ -772,10 +740,10 @@ div .carte {
 }
 
 .paragraphe {
-	margin-left: 320px;
+	margin-left: 250px;
 	text-align: justify;
 	position: relative;
-	bottom: 50px;
+	margin-bottom: 70px;
 	width: 600px;
 }
 
